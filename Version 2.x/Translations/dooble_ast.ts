@@ -59,75 +59,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>dmisc::passphraseHash(): Unsupported hash type %1 (%2). Using Qt&apos;s sha1 implementation.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dmisc::initializeCrypt(): Using gcry_threads_qt&apos;s address as the second parameter to gcry_control().</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dmisc::passphraseHash(): gcry_md_get_algo_dlen() returned zero. Using Qt&apos;s sha1 implementation.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::decodedString(): setInitializationVector() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::decodedString(): gcry_cipher_decrypt() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::encodedString(): setInitializationVector() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::encodedString(): gcry_cipher_encrypt() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::openCipherHandle(): gcry_cipher_open() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_cipher_setkey() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_kdf_derive() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setInitializationVector(): gcry_cipher_setiv() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dmisc::initializeCrypt(): It appears that the gcrypt library is already initialized.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 KiB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>%1 MiB</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::dcrypt(): gcry_cipher_setkey() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::dcrypt(): gcry_calloc_secure() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::openCipherHandle(): gcry_cipher_open() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): m_cipherHandle is 0.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -143,67 +79,35 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>dcrypt::encodedString(): QDataStream error.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): gcry_md_open() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): gcry_md_open() failure.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): gcry_md_setkey() failure (%1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_kdf_derive() is not defined. Using the provided passphrase&apos;s hash as the keys.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::encodedString(): gcry_cipher_get_algo_blklen() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_cipher_get_algo_keylen() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_md_get_algo_dlen() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setCipherPassphrase(): gcry_calloc_secure() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setInitializationVector(): gcry_cipher_get_algo_blklen() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::setInitializationVector(): gcry_calloc() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): m_hashKey or m_hashKeyLength is peculiar.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): gcry_md_get_algo_dlen() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dcrypt::keyedHash(): gcry_md_read() failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dmisc::initializeCrypt(): gcry_check_version() failure. Secure memory was not explicitly initialized!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Dooble Web Browser: HTTP-Only Exceptions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dooble Web Browser: Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A critical error occurred while preparing the authentication and encryption keys. Please report this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing Dooble.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing blocked hosts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing the gcrypt library.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing WebEngine.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Initializing Dooble containers.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -309,7 +213,7 @@
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished">Ctrl+Shift+W</translation>
+        <translation type="obsolete">Ctrl+Shift+W</translation>
     </message>
     <message>
         <source>Submit bookmark to Spot-On.</source>
@@ -356,6 +260,10 @@
     </message>
     <message>
         <source>Error Information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spot-On Shared Links</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -421,19 +329,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open in &amp;New Window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Uncategorized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show &amp;Bookmarks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -465,15 +365,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>dbookmarkswindow::dbookmarkswindow(): dooble::s_spoton is 0.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebEngine does not yet support Web elements. Web elements are required for importing bookmarks.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spot-On support is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open in &amp;New Window...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show &amp;Bookmarks...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -536,7 +448,7 @@
     </message>
     <message>
         <source>&amp;Change Desktop Background</source>
-        <translation>&amp;Camudar el fondu d&apos;escritoriu</translation>
+        <translation type="vanished">&amp;Camudar el fondu d&apos;escritoriu</translation>
     </message>
     <message>
         <source>Dooble Web Browser: Desktop Background Image Selection</source>
@@ -547,19 +459,15 @@
         <translation type="obsolete">&amp;Esbillar</translation>
     </message>
     <message>
-        <source>&amp;Launch Terminal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Dooble Web Browser: File Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Dooble Web Browser: Terminal</source>
+        <source>Select</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select</source>
+        <source>&amp;Change Desktop Background...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -696,11 +604,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Compute SHA-1 Hash</source>
+        <source>Compute SHA3-512 Hash</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>derrorlog</name>
     <message>
-        <source>Compute SHA-256 Hash</source>
+        <source>Search Log</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -826,37 +737,22 @@
     </message>
 </context>
 <context>
-    <name>dftp</name>
-    <message>
-        <source>dftp::slotReadyRead(): Invalid IP address. Aborting connection.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>dftpbrowser</name>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
-    </message>
-    <message>
-        <source>Size</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Nome</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation type="unfinished">Copia &amp;Enllaz Ubicación</translation>
+        <translation type="obsolete">Copia &amp;Enllaz Ubicación</translation>
     </message>
     <message>
         <source>Open Link in New &amp;Tab</source>
-        <translation type="unfinished">Abrir enllaz en Nueva &amp;Llingüeta</translation>
+        <translation type="obsolete">Abrir enllaz en Nueva &amp;Llingüeta</translation>
     </message>
     <message>
         <source>Open Link in &amp;New Window</source>
-        <translation type="unfinished">Abrir Enllaz en &amp;Nueva Ventana</translation>
+        <translation type="obsolete">Abrir Enllaz en &amp;Nueva Ventana</translation>
     </message>
     <message>
         <source>&amp;Save Link</source>
@@ -873,14 +769,6 @@
     <message>
         <source>%1 MB</source>
         <translation type="obsolete">%1 MB</translation>
-    </message>
-    <message>
-        <source>S&amp;ave Link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 Directory(ies) / %2 File(s)</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -965,15 +853,63 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open in &amp;New Window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>%1 Item(s) / %2 Item(s) Selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>dhistory::dhistory(): dooble::s_spoton is 0.</source>
+        <source>January</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>February</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>March</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>April</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>May</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>June</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>July</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>August</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>September</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>October</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>November</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>December</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spot-On support is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open in &amp;New Window...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1022,6 +958,10 @@
         <source>&amp;Spot-On Share</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Search History</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>dooble</name>
@@ -1056,10 +996,6 @@
     <message>
         <source>Dooble Desktop</source>
         <translation>Dooble Desktop</translation>
-    </message>
-    <message>
-        <source>Show &amp;History</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Dooble Web Browser: Save As</source>
@@ -1098,19 +1034,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Start %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The site %1 is requesting credentials.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The proxy %1:%2 is requesting credentials.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1126,23 +1054,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Add-on Load Failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add-on</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Dooble Web Browser: Reminder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Recently-Closed Tabs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dooble::slotRefreshPlugins(): Removing action %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1158,11 +1074,55 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>View %1 &amp;Cookies</source>
+        <source>Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>View Site &amp;Cookies</source>
+        <source>Search Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebEngine does not yet support Web inspectors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebEngine supports the browsing of directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show &amp;History...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dooble Web Browser: Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The SQLite database driver QSQLITE is not available. This is a fatal flaw.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The proxy %1 is requesting credentials.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View %1 &amp;Cookies...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View Site &amp;Cookies...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Menu Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Hide Menu Bar</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1201,7 +1161,7 @@
     </message>
     <message>
         <source>&amp;Download</source>
-        <translation>&amp;Descargar</translation>
+        <translation type="vanished">&amp;Descargar</translation>
     </message>
     <message>
         <source>C&amp;ancel</source>
@@ -1229,6 +1189,10 @@
     </message>
     <message>
         <source>Show Bit Rates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Download...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1336,6 +1300,10 @@ p, li { white-space: pre-wrap; }
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Search Source</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>dreinstatedooble</name>
@@ -1438,7 +1406,23 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Web plugins.</source>
+        <source>Web Plugins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebEngine</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have selected an iteration count which exceeds the default value of 25,000. You may experience degradation during the initialization of Dooble. The key-generation process may also require a significant amount of time to complete. Continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A critical error occurred while preparing the authentication and encryption keys. Please report this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete &amp;All File Suffixes</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1480,23 +1464,11 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open in &amp;New Window</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Bookmark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reload &amp;Tab</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Private Cookies</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;View Private Cookies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1509,6 +1481,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Private Browsing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open in &amp;New Window...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Reload</source>
+        <translation type="unfinished">&amp;Recargar</translation>
+    </message>
+    <message>
+        <source>&amp;Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;View Private Cookies...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1534,20 +1522,32 @@ p, li { white-space: pre-wrap; }
         <source>Load</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Submit URL to Spot-On.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spot-On support is not available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Encrypted database writes are disabled. Therefore, bookmarks are also disabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>dview</name>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Copia &amp;Enllaz Ubicación</translation>
+        <translation type="vanished">Copia &amp;Enllaz Ubicación</translation>
     </message>
     <message>
         <source>Copy &amp;Selected Text</source>
-        <translation>Copia &amp;Testu Esbilláu</translation>
+        <translation type="vanished">Copia &amp;Testu Esbilláu</translation>
     </message>
     <message>
         <source>Open Link in New &amp;Tab</source>
-        <translation>Abrir enllaz en Nueva &amp;Llingüeta</translation>
+        <translation type="vanished">Abrir enllaz en Nueva &amp;Llingüeta</translation>
     </message>
     <message>
         <source>Open Link in New &amp;Window</source>
@@ -1555,7 +1555,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Open Link in &amp;New Window</source>
-        <translation>Abrir Enllaz en &amp;Nueva Ventana</translation>
+        <translation type="vanished">Abrir Enllaz en &amp;Nueva Ventana</translation>
     </message>
     <message>
         <source>&amp;Save Link</source>
@@ -1563,15 +1563,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Copy &amp;Image Location</source>
-        <translation>Copiar ubicación de la &amp;imaxe</translation>
+        <translation type="vanished">Copiar ubicación de la &amp;imaxe</translation>
     </message>
     <message>
         <source>Sa&amp;ve Image</source>
-        <translation>Guardar &amp;Imaxe</translation>
+        <translation type="vanished">Guardar &amp;Imaxe</translation>
     </message>
     <message>
         <source>View I&amp;mage</source>
-        <translation>Ver I&amp;maxe</translation>
+        <translation type="vanished">Ver I&amp;maxe</translation>
     </message>
     <message>
         <source>View Im&amp;age in New Tab</source>
@@ -1582,56 +1582,12 @@ p, li { white-space: pre-wrap; }
         <translation type="obsolete">Ver la ima&amp;xe nuna nueva ventana</translation>
     </message>
     <message>
-        <source>&amp;Copy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Paste</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Reload</source>
-        <translation type="unfinished">&amp;Recargar</translation>
-    </message>
-    <message>
-        <source>&amp;Back</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Forward</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copy &amp;E-Mail Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>S&amp;ave Link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>View Ima&amp;ge in New Tab</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>View Imag&amp;e in New Window</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">&amp;Recargar</translation>
     </message>
     <message>
         <source>Sto&amp;p</source>
-        <translation type="unfinished">Para&amp;r</translation>
-    </message>
-    <message>
-        <source>&amp;Print Frame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>View Frame S&amp;ource</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>View Page S&amp;ource</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Para&amp;r</translation>
     </message>
     <message>
         <source>(Untitled)</source>
@@ -1672,14 +1628,6 @@ p, li { white-space: pre-wrap; }
         <source>Dooble has detected a stagnant JavaScript script. Should the script be terminated?</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>dwebpage::slotFinished(): The URL %1 generated an error (%2:%3).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>dwebpage::slotFinished(): The URL %1 generated an error (HTTP %2).</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>errorLog</name>
@@ -1693,7 +1641,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished">Ctrl+Shift+W</translation>
+        <translation type="obsolete">Ctrl+Shift+W</translation>
     </message>
     <message>
         <source>Clear &amp;Log</source>
@@ -1908,7 +1856,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation type="obsolete">Ctrl+Q</translation>
+        <translation type="unfinished">Ctrl+Q</translation>
     </message>
     <message>
         <source>New &amp;Tab</source>
@@ -1920,7 +1868,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;New Window</source>
-        <translation>&amp;Nueva Ventana</translation>
+        <translation type="vanished">&amp;Nueva Ventana</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
@@ -1952,11 +1900,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;About Dooble</source>
-        <translation>&amp;Tocante a Dooble</translation>
+        <translation type="vanished">&amp;Tocante a Dooble</translation>
     </message>
     <message>
         <source>&amp;Save Page</source>
-        <translation>&amp;Guardar la páxina</translation>
+        <translation type="vanished">&amp;Guardar la páxina</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
@@ -1964,7 +1912,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Downloads</source>
-        <translation>&amp;Descargues</translation>
+        <translation type="vanished">&amp;Descargues</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
@@ -1996,7 +1944,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>Im&amp;prentar</translation>
+        <translation type="vanished">Im&amp;prentar</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -2012,11 +1960,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Print Pre&amp;view</source>
-        <translation>&amp;Vista previa d&apos;impresión</translation>
+        <translation type="vanished">&amp;Vista previa d&apos;impresión</translation>
     </message>
     <message>
         <source>Settin&amp;gs</source>
-        <translation>Confi&amp;guración</translation>
+        <translation type="vanished">Confi&amp;guración</translation>
     </message>
     <message>
         <source>Ctrl+G</source>
@@ -2032,7 +1980,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Page So&amp;urce</source>
-        <translation>Fonte Páxi&amp;na</translation>
+        <translation type="vanished">Fonte Páxi&amp;na</translation>
     </message>
     <message>
         <source>Reset Zoo&amp;m</source>
@@ -2040,7 +1988,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Status&amp;bar</source>
-        <translation>B&amp;arra d&apos;estáu</translation>
+        <translation type="vanished">B&amp;arra d&apos;estáu</translation>
     </message>
     <message>
         <source>Page &amp;Source</source>
@@ -2091,10 +2039,6 @@ p, li { white-space: pre-wrap; }
         <translation>Acercar &amp;Zoom</translation>
     </message>
     <message>
-        <source>Restore</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Next</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2123,10 +2067,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Open Directory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Copy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2151,14 +2091,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>F11</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Coo&amp;kies</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Ctrl+K</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2171,51 +2103,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Toolbars</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Location Toolbar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Full Screen Tablet Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Si&amp;debars</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Favorites Toolbar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;History Sidebar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Authenticate Passphrase</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Favorites Toolbar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;JavaScript</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Addons</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Refresh List</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>HTTP Re&amp;direct</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2239,18 +2127,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Third-Party Frame &amp;Content</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>DNT (Do Not &amp;Track)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Automatically-Loaded Images</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;IRC Channel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2259,43 +2135,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cac&amp;he</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Clear Containers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always HTTP&amp;S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Ctrl+Shift+Del</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save Page as &amp;Data URI</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SS&amp;L Errors</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>HTTP Re&amp;ferrer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>JavaScript &amp;Pop-ups</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Allowed SSL Ciphers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Location Toolbar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2303,15 +2143,179 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Error &amp;Information</source>
+        <source>Menus</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Web Inspector</source>
+        <source>&amp;Tool Bars</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HTTP-&amp;Only Cookies</source>
+        <source>Si&amp;de Bars</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Favorites Tool Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location Tool Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;New Window...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;About Dooble...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Save Page...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Downloads...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Print...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print Pre&amp;view...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settin&amp;gs...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Page So&amp;urce...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status &amp;Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Open Directory...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Coo&amp;kies...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Favorites Tool Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;History Side Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Authenticate Passphrase...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;JavaScript...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Third-Party Frame &amp;Content...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>JavaScript &amp;Pop-ups...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>HTTP Re&amp;direct...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DNT (Do Not &amp;Track)...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error &amp;Information...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Automatically-Loaded Images...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cac&amp;he...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Clear Containers...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always HTTP&amp;S...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save Page as &amp;Data URI...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SS&amp;L Errors...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>HTTP Re&amp;ferrer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Allowed SSL Ciphers...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Web Inspector...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>HTTP-&amp;Only Cookies...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Hide Menu Bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Desktop Button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Home Button</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Clear Spot-On Shared Links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Pr&amp;ivate Tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search &amp;Widget</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Gridify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Home</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2347,7 +2351,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>Im&amp;prentar</translation>
+        <translation type="vanished">Im&amp;prentar</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -2355,7 +2359,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Print Pre&amp;view</source>
-        <translation>&amp;Vista previa d&apos;impresión</translation>
+        <translation type="vanished">&amp;Vista previa d&apos;impresión</translation>
     </message>
     <message>
         <source>&amp;Find</source>
@@ -2387,10 +2391,18 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+Shift+W</source>
-        <translation type="unfinished">Ctrl+Shift+W</translation>
+        <translation type="obsolete">Ctrl+Shift+W</translation>
     </message>
     <message>
-        <source>Save &amp;As</source>
+        <source>&amp;Print...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Print Pre&amp;view...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save &amp;As...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2417,7 +2429,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Dooble Web Browser</source>
-        <translation type="unfinished">Dooble Web Browser</translation>
+        <translation type="obsolete">Dooble Web Browser</translation>
+    </message>
+    <message>
+        <source>Dooble Web Browser: Passphrase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please provide your passphrase. If you dismiss this prompt, temporary credentials will be assigned.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2714,7 +2734,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Browse</source>
-        <translation type="unfinished">&amp;Restolar</translation>
+        <translation type="obsolete">&amp;Restolar</translation>
     </message>
     <message>
         <source>My Retrieved Files</source>
@@ -2742,10 +2762,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Web 2.0 Downloads (I2P)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Java</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2851,10 +2867,6 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>24</source>
         <translation type="unfinished">24</translation>
-    </message>
-    <message>
-        <source>&amp;Exceptions</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>JavaScript</source>
@@ -2977,10 +2989,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Close the selected tab via middle mouse button click.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Warn me if I&apos;m about to leave a page that has modified content.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3001,35 +3009,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Re-encode bookmarks.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode cookies.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode downloads.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode exceptions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode history.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode favicons.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Passphrase Confirmation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Periodically purge memory caches.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3046,10 +3026,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Action</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Location Toolbar Icon Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3077,10 +3053,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Minimum of 16 characters.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>HTTP Headers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3102,10 +3074,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Iteration Count</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Re-encode cache.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3201,50 +3169,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show authentication information after launch. Disabling this feature will inhibit session restoration.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always HTTPS.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Automatically load images.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Block pop-up windows.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Block third-party frame content.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Suppress HTTP redirect.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Suppress HTTP referrer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Session restoration.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Web plugins.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>WebGL.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spatial navigation.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Use native file dialogs.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3281,10 +3205,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished">25</translation>
     </message>
     <message>
-        <source>Do not track me.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Sight SSL errors. Assume a</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3298,14 +3218,6 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>approach.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Speedy network protocol.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>HTTP Status Codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3337,10 +3249,6 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Display Dooble&apos;s Error Page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Close the Downloads window after downloads have completed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3357,37 +3265,229 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Accept HTTP cookies only.</source>
+        <source>WebEngine</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically Record Discovered Suffixes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>High Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Highest Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Idle Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Inherit Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Low Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lowest Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Normal Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time-Critical Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Screen Support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location Tool Bar Icon Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scrolling Animation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tab Bar Position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>East</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>North</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>South</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>West</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Browse...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Exceptions...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show authentication prompt after launch.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The CBC mode of operation with ciphertext stealing (CTS) is supported. Authenticated and encrypted values are stored in various databases. The format of the stored objects is H(E(P || Length(P))) || E(P || Length(P)). The CTR mode is also supported. Please note that a session state is not maintained. The function gcry_randomize() is used for obtaining a buffer of random data. If you are concerned, please avoid using the CTR mode.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Cookies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Exceptions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Favicons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Downloads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re-encode Cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minimum of 16 characters, please.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always HTTPS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically Load Web Images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block Pop-up Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block Third-party Frame Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accept HTTP Cookies Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do Not Track</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suppress HTTP Redirect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suppress HTTP Referrer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stagnant Scripts Default Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interrupt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prompt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Just-in-time Compiler</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Session Restoration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedy Network Protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User Agent String</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web Plugins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WebGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close the selected tab via a middle mouse button click.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spatial Navigation</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>sslCiphersWindow</name>
     <message>
-        <source>Dooble Web Browser: Allowed SSL Ciphers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Please close all active tabs after updating the below contents. Please restart Dooble if the settings do not agree with your expectations.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Zarrar</translation>
-    </message>
-    <message>
-        <source>Negate All &amp;SSL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Negate All &amp;TLS</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">&amp;Zarrar</translation>
     </message>
 </context>
 <context>
     <name>statusBar</name>
     <message>
         <source>Please click to review the contents of the Error Information window.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Authenticate Passphrase</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
